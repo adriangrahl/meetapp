@@ -1,0 +1,19 @@
+{{ messages.congratulations }} <strong>{{username}}</strong> :)
+
+{{ messages.successfully_subscribed }} <strong>{{ title }}</strong>. {{ messages.details }}:
+
+<p>
+  {{ description }}
+</p>
+
+@if(photoUrl)
+  <p> <img src="{{photoUrl}}" alt="{{title}}" ><br> </p>
+@endif
+
+<p>
+  {{ messages.meetup_place }} <strong>{{ location }}</strong>, {{ messages.at }} <strong>{{ date }}</strong>
+</p>
+
+<p>
+  {{ messages.cheers }}, {{ meetupOwner }}
+</p>
