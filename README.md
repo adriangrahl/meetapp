@@ -11,9 +11,14 @@ Application to manage meetups.
 - Search meetups by title
 - Create meetups with cover photo
 - See meetup details & subscription
+- Async mail after subscription
 
 ## Installation details are within each specific folder
 
 Signup
 
 ![](overview1.gif)
+
+Meetup Subscription Mail
+
+![](subscription-mail.JPG)
